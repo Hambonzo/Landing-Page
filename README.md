@@ -1,0 +1,1 @@
+This is a web page project to help me combine all skills i have learned so far from HTML and CSS
