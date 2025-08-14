@@ -6,6 +6,7 @@ body{
     height: 100vh;
     font-family: 'Roboto', sans-serif;
     margin: 0;
+    
 }
 
 ul {
@@ -17,16 +18,22 @@ ul {
     
 }
 
+ul a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
 button {
     display: flex;
     flex: 0 1 0;
     background-color: #3882F6;
     color: #E5E7eb;
-    max-width: 80px;
+    max-width: 100px;
     min-height: 30px;
     justify-content: center;
     align-items: center;
     border-radius: 25px;
+    font-weight: bolder;
     
 }
 
@@ -60,6 +67,10 @@ h2 {
     padding: 20px;
 }
 
+.top {
+    flex: 1 1 0;
+}
+
 .description {
     display: flex;
     background-color: #1F2937;
@@ -67,9 +78,6 @@ h2 {
     justify-content: center;
     align-items: center;
     gap: 750px
-    
-    
-    
     
 }
 
@@ -100,6 +108,7 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex: 1 1 0;
     
     
     
@@ -110,6 +119,7 @@ h2 {
     height: 150px;
     border-radius: 25px;
     
+    
 }
 
 .images {
@@ -117,6 +127,7 @@ h2 {
     justify-content: center;
     flex-wrap: wrap;
     gap: 60px
+    
 }
 
 .pair{
@@ -133,7 +144,8 @@ h2 {
     justify-content: center;
     align-items: center;
     color: #1F2937;
-    flex: 2 1 0;
+    flex: 1 1 0;
+    min-height: 300px;
     
 }
 
@@ -156,4 +168,43 @@ h2 {
     flex: 1 1 0;
     
 }
+
+.blue {
+    display: flex;
+    flex-direction: column;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 50px;
+    margin: 30px;
+    justify-content: center;
+    align-items: baseline;
+    width: 1000px;
+    border-radius: 25px;
+    height: 50px;
+    
+}
+
+.inline {
+    display: flex;
+    gap: 400px;
+}
+
+.inline button{
+    min-width: 100px;
+    max-height: 30px;
+    border-color: #E5E7EB;
+    font-weight: bolder;
+}
+
+.inline p {
+    margin-top: 0px;
+} 
+
+.blue h3 {
+    margin-bottom: 0px;
+}
+
+
+
+
 
